@@ -1,0 +1,84 @@
+
+*, html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+}
+
+.gambar {
+    padding-top: 150px;
+}
+
+.gambar img:not(:first-child) {
+    display: none;
+  }
+
+.text1 {
+    padding: 10px;
+    font-size: x-large;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.button1 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: aqua;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    
+}
+
+.button2 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: aqua;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px; /* Menggunakan posisi absolut */
+    transition: transform 0.3s ease; /* Efek transisi */
+}
+
+.enlarged {
+    transition: transform 0.3s ease; /* Add transition effect */
+  }
+
+  .refresh {
+    position: fixed;
+    bottom: 10px;
+    border: none;
+    background-color: transparent;
+    text-decoration: underline;
+    font-size: 10px;
+  }
